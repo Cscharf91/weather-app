@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.cloudy {
+  min-height: 100vh;
+  background-image: url("./components/imgs/cloudy.jpg");
+}
+
+.rain {
+  min-height: 100vh;
+  background-image: url("./components/imgs/rain.jpg");
+}
+
+.snow {
+  min-height: 100vh;
+  background-image: url("./components/imgs/snow.jpg");
+}
+
+.sunny {
+  min-height: 100vh;
+  background-image: url("./components/imgs/sunny.jpg");
+}
+
+.hero {
+  background-color: #08204e;
+  min-height: 100px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.searchbar form {
+  width: 40%;
+  background: #0950d3;
+  border-radius: 20px;
+  padding: 20px;
+  display: grid;
+  color: white;
+  margin: 20px auto;
+}
+
+.searchbar form button {
+  margin-top: 10px;
+}
+
+.weather-card {
+  margin: auto;
+  display: grid;
+  width: 50%;
+  background: rgb(45, 74, 133);
+  border-radius: 20px;
+  color: white;
+}
+
+.weather-info {
+  display: grid;
+}
+
+.temp {
+  font-size: 40px;
+}
+
+.weather-description {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  margin-top: 10px;
+  color: white;
+  background: rgb(11, 2, 136);
+  border: none;
+  border-radius: 10px;
+  min-height: 30px;
+}
