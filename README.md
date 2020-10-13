@@ -3,7 +3,7 @@ This project was made as part of The Odin Project's cirriculum, found [here](htt
 
 It was made in React to learn about using APIs in web apps.
 ### Features:
--View any location's temperature
+-View any location's temperature.
 -Converts between C and F units.
 -Updates with an icon and background image relating to that location's forecast.
 
