@@ -1,4 +1,6 @@
 ## Weather App
+View this project here: https://cscharf91.github.io/weather-app/
+
 This project was made as part of The Odin Project's cirriculum, found [here](https://www.theodinproject.com/courses/javascript/lessons/weather-app).
 
 It was made in React to learn about using APIs in web apps.
