@@ -29,7 +29,7 @@ function App() {
       setDescription(data.weather[0].main);
       getBG(data);
     } catch {
-      console.log('no go my dude');
+      console.log('Data not found');
     }
   }
 
