@@ -20,7 +20,7 @@ function App() {
 
   const getInfo = async () => {
     try {
-      const response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${searchTerm}&appid=e37f24ef6174dba03b645be482f88b30`)
+      const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${searchTerm}&appid=e37f24ef6174dba03b645be482f88b30`)
       const data = await response.json();
       const temp = degrees === 'Fahrenheit' ? convertToFahrenheit(data.main.temp) : convertToCelsius(data.main.temp);
       properCapitalization();
